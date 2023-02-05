@@ -36,11 +36,11 @@ http://localhost:port_local
 
 Nous avons installé Spark dans une machine virtuelle nommé tp-hadoop-29 (192.168.x.x). Et nous voulons pouvoir y accéder depuis notre localhost. Commencé par lancer le service Spark sur la machine virtuelle.
 
-![Untitled](Connection%20distante%20A%20%E2%86%90%E2%86%92B%20f7beb932d2824b68a45e93060c2472cd/Untitled.png)
+![img_0](img/img_0.png)
 
 La session Spark est bien démarré et une Web UI est disponible. On peut donc démarrer la redirection de ports. Le schéma ci dessous résume le principe du port forwarding.
 
-![Untitled](Connection%20distante%20A%20%E2%86%90%E2%86%92B%20f7beb932d2824b68a45e93060c2472cd/Untitled%201.png)
+![img_1](img/img_1.png)
 
 Le schéma ci dessus est décrit par la commande suivante :
 
@@ -56,11 +56,11 @@ Ouvrez un nouveau terminal et vérifier que le port 9099 local est bien en mode 
 lsof -iTCP -sTCP:LISTEN -n -P
 ```
 
-![Untitled](Connection%20distante%20A%20%E2%86%90%E2%86%92B%20f7beb932d2824b68a45e93060c2472cd/Untitled%202.png)
+![img_2](img/img_2.png)
 
 A présent on peut démarrer le navigateur et accéder au service Spark souhaité
 
-![Untitled](Connection%20distante%20A%20%E2%86%90%E2%86%92B%20f7beb932d2824b68a45e93060c2472cd/Untitled%203.png)
+![img_3](img/img_3.png)
 
 ## Bonus
 
