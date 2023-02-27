@@ -1,4 +1,4 @@
-# Connection distante : A ←→B
+# Connexion distante : A ←→B
 
 ---
 
